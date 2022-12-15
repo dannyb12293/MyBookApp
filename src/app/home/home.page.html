@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <img src="/assets/home.jpg" alt="" />
+      <ion-card-header>
+        <ion-card-subtitle>Into The Wilderness</ion-card-subtitle>
+        <ion-card-title>Last Adventure</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, vitae pariatur sed nam assumenda necessitatibus eligendi esse eaque eius unde minus libero soluta aperiam ipsum quo nostrum deserunt voluptate debitis!</p>
+      </ion-card-content>
+    </ion-card>
+    <ion-button color="light"  [routerDirection]="'root'" [routerLink]="['/toc']">NEXT</ion-button>
+    
+</ion-content>
